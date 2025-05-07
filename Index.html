@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontrol Tombol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Intro Section -->
+  <div id="intro">
+    <h2>Sebelum kamu lihat semuanya...</h2>
+    <p>Aku cuma mau bilang, tolong baca dan pahami dengan hati ya.  
+    Jangan buru-buru memilih, karena semua ini aku tulis dengan tulus.</p>
+    <button onclick="masuk()">Lanjut</button>
+  </div>
+
+  <!-- Main Content -->
+  <div id="mainContent">
+    <h2>Hai cantikk, atau Hai sayang?  
+      Lupakan itu, intinya aku suka sama kamu dari dulu. Maaf kalau aku telat menyampaikan ini.  
+      Maaf juga kalau aku mengagetkanmu, kamu pasti ga tau ini dari siapa ya, klik tombol ciri-ciri untuk mengetahui ciri-ciri dari siapa ini.
+    </h2>
+
+    <button id="btn1" onclick="showText(1)">Ciri-ciri</button>
+    <button id="btn2" onclick="showText(2)" disabled>Iya</button>
+    <button id="btn3" onclick="showText(3)" disabled>Tidak</button>
+
+    <div class="text-box" id="textBox">Klik tombol di atas ya cantik, inget pilihan tidak bisa di ubah sayang.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
